@@ -16,6 +16,7 @@
 * `alt+7` 和查看 UML 类似 alt+7 查看当前文件结构，可以查看当前类的各种方法和属性，并且根据图表不同显示了静态方法等不同类型，同时还可以选择是否继承了某个方法，在结构侧边栏还可以通过ctrl+f搜索方法名达到跳转的目的，专治各种几十个方法的奇葩类。
 * `ctrl+k && ctrl+shift+k` 写git commit 和 push 代码，看到这里可能部分人会疑惑了，为什么要用IDE的提交代码功能，终端下git add * git commit -m git push 的效率不比IDE效率高多了吗?原因很简单，当你使用IDE的commit 功能的时候 IDE会扫描你提交的代码如果有缺陷会提前发现并提示你是否坚持提交，根据IDE提示的内容可以很快跳转到缺陷代码部分并进行修改。如果装了sonar(之后会讲sonar) sonar再检测一遍也会提醒你哪个部分的代码有问题。
 * `alt+enter` 当你在写代码的时候会遇到各种波浪线和红线 黄线 绿线，请不要装作没有看见,使用 IDE 自带的alt+enter 可以快速矫正错误，可以自己尝试一下。
+* `ctrl+F11` 书签功能 当你需要跳转的时候可以使用，配合`ctrl+数字键`可以快速跳转到你指定书签的位置
 * `database` database侧边栏不是按键，可以展开看一下，database可以支持大部分的数据源，如 MYSQL ORACLE PGSQL等，最新版本支持 mongoDB ，redis拓展需要收费且不建议用(请用redis desktop)，自带的database某些方面可能不如navicat好用，但是自带的 database 功能可以在不切换窗口的情况下进行查询并且可以选择查询特定的语句，个人感觉比单独收费的 navicat 要香多了。
 * `http` http 也不是一个快捷键，你可以通过创建.http的形式来生成一个http文件，支持所有的http请求，并且可以自定义参数和method 支持通过curl生成请求文本，并且有请求快照且可以预览。个人感觉使用起来比postman要好一些。
 
@@ -23,3 +24,10 @@
 
 
 
+* `sonar lint` gitlab (码云)常配置的缺陷检查插件`sonar qube`的客户端版本,可以检测在你写代码的时候检测出可以优化的部分,配合快捷键 `alt+enter` 可以快速纠正。
+
+* `code glance ` 如果非要让我选一个用`sublime`的理由 大概是 `sublime` 带代码地图功能，问题是如果装了`code glance` 这个插件之后,就没必要用`sublime` 了
+
+* `rainbow brackets` 彩虹括号，对应的括号的颜色相同，保护你的眼睛，特别是不会用`promise` `async await`的前端。
+* `material theme` 这个是一个主题插件，可以切换各种符合谷歌`material theme`主题的主题。同时配合同一个开发团队的`atom`图表 美化你的IDE
+* `key promoter` 以上所有快捷键记不住怎么办? 装一个`key promoter` 记录所有你平时鼠标点击的可以使用快捷键的操作，有空打开看一下，可以记住很多自己记不住的快捷键
