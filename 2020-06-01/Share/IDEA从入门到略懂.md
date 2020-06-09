@@ -25,9 +25,8 @@
 
 
 * `sonar lint` gitlab (码云)常配置的缺陷检查插件`sonar qube`的客户端版本,可以检测在你写代码的时候检测出可以优化的部分,配合快捷键 `alt+enter` 可以快速纠正。
-
 * `code glance ` 如果非要让我选一个用`sublime`的理由 大概是 `sublime` 带代码地图功能，问题是如果装了`code glance` 这个插件之后,就没必要用`sublime` 了
-
-* `rainbow brackets` 彩虹括号，对应的括号的颜色相同，保护你的眼睛，特别是不会用`promise` `async await`的前端。
+* `rainbow brackets` 彩虹括号，对应的括号的颜色相同，保护你的眼睛免受各种括号骚扰，特别是不会用`promise` `async await`的前端写出来的代码。
 * `material theme` 这个是一个主题插件，可以切换各种符合谷歌`material theme`主题的主题。同时配合同一个开发团队的`atom`图表 美化你的IDE
 * `key promoter` 以上所有快捷键记不住怎么办? 装一个`key promoter` 记录所有你平时鼠标点击的可以使用快捷键的操作，有空打开看一下，可以记住很多自己记不住的快捷键
+* `translation` 翻译插件，ctrl+shift+o 快速翻译，免去单独开个网页的麻烦
