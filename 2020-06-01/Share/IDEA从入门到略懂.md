@@ -30,3 +30,5 @@
 * `material theme` 这个是一个主题插件，可以切换各种符合谷歌`material theme`主题的主题。同时配合同一个开发团队的`atom`图表 美化你的IDE
 * `key promoter` 以上所有快捷键记不住怎么办? 装一个`key promoter` 记录所有你平时鼠标点击的可以使用快捷键的操作，有空打开看一下，可以记住很多自己记不住的快捷键
 * `translation` 翻译插件，ctrl+shift+o 快速翻译，免去单独开个网页的麻烦
+* `git toolbox` git背锅插件,可以根据当前代码提示究竟是谁写的代码
+
